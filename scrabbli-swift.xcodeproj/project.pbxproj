@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5A4C82198893BF00E4FF6F /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A4C81198893BF00E4FF6F /* TrieNode.swift */; };
 		7B6233E519874905006BAABC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6233E419874905006BAABC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B5A4C81198893BF00E4FF6F /* TrieNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
 		7B6233E119874905006BAABC /* scrabbli-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "scrabbli-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6233E419874905006BAABC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B5A4C801988914400E4FF6F /* trie */ = {
+			isa = PBXGroup;
+			children = (
+				7B5A4C81198893BF00E4FF6F /* TrieNode.swift */,
+			);
+			name = trie;
+			sourceTree = "<group>";
+		};
 		7B6233D819874905006BAABC = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		7B6233E319874905006BAABC /* scrabbli-swift */ = {
 			isa = PBXGroup;
 			children = (
+				7B5A4C801988914400E4FF6F /* trie */,
 				7B6233E419874905006BAABC /* main.swift */,
 			);
 			path = "scrabbli-swift";
@@ -119,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B6233E519874905006BAABC /* main.swift in Sources */,
+				7B5A4C82198893BF00E4FF6F /* TrieNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +245,7 @@
 				7B6233EA19874905006BAABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
