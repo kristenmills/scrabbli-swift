@@ -10,11 +10,11 @@ import Foundation
 
 class TrieNode {
 
-  var value: Character
+  var value: Character?
   var children: [Character: TrieNode]
   var terminal: Bool
 
-  init(value: Character) {
+  init(value: Character? ) {
     self.value = value
     self.children = [:]
     self.terminal = false
